@@ -19,3 +19,22 @@
    text-align: center;
    margin-top: 30px;
 }
+.cards{
+   justify-content: center;
+   margin: 30px;
+}
+.card{
+   width: 18rem;
+   margin: 15px;
+   background-color: rgb(245, 244, 244);
+   border-radius: 5px;
+   border: none;
+}
+.imagenCard{
+   width: 200px;
+   height: 200px;
+}
+.btnNavbar{
+   color: white;
+}
+

@@ -4,10 +4,10 @@ const Secciones = () => {
     return (
         <>
             <li className="nav-item">
-                    <a className="nav-link active" aria-current="page" href="#">Inicio</a>
+                    <a className="nav-link btnNavbar" aria-current="page" href="#">Inicio</a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#">Contacto</a>
+                    <a className="nav-link btnNavbar" href="#">Contacto</a>
                   </li>
         </>
     );

@@ -1,11 +1,13 @@
 import './App.css'
 import Navbar from "./navbar/navbar";
-import ItemListContainer from './itemListContainer/itemListContainer';
+import ItemListContainer from './ItemListContainer/ItemListContainer';
+import ItemDetailContainer from './ItemDetailContainer/ItemDetailContainer';
 const App = () => {
   return (
     <>
       <Navbar/>
-      <ItemListContainer frasePagina={"CREÁ TU MEJOR VERSION"}/>
+      <ItemListContainer/>
+      <ItemDetailContainer/>
     </>
   );
 }

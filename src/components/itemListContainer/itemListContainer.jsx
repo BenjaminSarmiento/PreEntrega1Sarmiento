@@ -1,10 +1,23 @@
 
+import { useState,useEffect } from "react";
+import ItemList from "../ItemList/ItemList";
+const ItemListContainer = () => {
+    const [productos, setProductos] = useState([])
 
-const ItemListContainer = ({frasePagina}) => {
+    useEffect(() => {
+        fetch('./json/productos.json')
+       .then(Response => Response.json())
+       .then(products => {
+       const productsList = ItemList({products})
+        console.log(productsList)
+        setProductos(productsList)
+    })
+    }, [])
+
     return (
-        <>
-            <p className="frasePagina">{frasePagina}</p>
-        </>
+        <div className="row cards">
+            {productos}
+        </div>
     );
 }
 
