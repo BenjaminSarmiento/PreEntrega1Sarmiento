@@ -5,20 +5,20 @@ import { useParams } from "react-router-dom";
 import ItemList from "../ItemList/ItemList";
 const ItemListContainer = () => {
     const [productos, setProductos] = useState([])
-    const {idCategoria}= useParams()  
+    const {nombreCategoria}= useParams()  
 
     useEffect(() => {
-        if (idCategoria) {    
+        if (nombreCategoria) {    
             fetch('../json/productos.json')
        .then(Response => Response.json())
        .then(items => {
-          const products = items.filter(prod => prod.idCategoria === parseInt(idCategoria))  
+          const products = items.filter(prod => prod.nombreCategoria === nombreCategoria)  
           const productsList = ItemList({products})
           console.log(productsList)
           setProductos(productsList)
          })
     } else {
-        fetch('./json/productos.json')
+        fetch('../json/productos.json')
        .then(Response => Response.json())
        .then(products => {
         console.log(products)
@@ -27,7 +27,7 @@ const ItemListContainer = () => {
           setProductos(productsList)
          })
     }
-    }, [idCategoria])     
+    }, [nombreCategoria])     
 
     return (
         <div className="row cards">
