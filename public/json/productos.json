@@ -45,7 +45,7 @@
     },
     {"nombre": "proteina gold nutrition",
      "id":6 ,
-     "idCategoria": 2 ,
+     "idCategoria": 2 ,    
      "precio": 4000,
      "cantidad": 1,
      "caracteristicas": "doypack de proteina",

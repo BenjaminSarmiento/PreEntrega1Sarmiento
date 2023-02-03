@@ -1,19 +1,16 @@
 
-
+import { Link } from "react-router-dom";
 const Categorias = () => {
     return (
         <>
             <li className="nav-item dropdown">
                     <a className="nav-link dropdown-toggle btnNavbar" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Productos
+                      PRODUCTOS
                     </a>
                     <ul className="dropdown-menu">
-                      <li><a className="dropdown-item" href="#">Ver todos los Productos</a></li>
-                      <li><hr className="dropdown-divider" /></li>
-                      <li><a className="dropdown-item" href="#">Proteinas</a></li>
-                      <li><a className="dropdown-item" href="#">Creatinas</a></li>
-                      <li><a className="dropdown-item" href="#">Shakers</a></li>
-                      <li><a className="dropdown-item" href="#">Colagenos</a></li>
+                      <li><Link className="dropdown-item" to={"/category/2"}>proteinas</Link></li>
+                      <li><Link className="dropdown-item" to={"/category/1"}>creatinas</Link></li>
+                      <li><Link className="dropdown-item" to={"/category/3"}>shakers</Link></li>
                     </ul>
                   </li>
         </>
