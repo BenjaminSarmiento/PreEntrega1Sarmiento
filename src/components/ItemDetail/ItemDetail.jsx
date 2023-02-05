@@ -11,8 +11,11 @@ const ItemDetail = ({item}) => {
                         <p className="card-text">{item.caracteristicas}</p>
                         <p className="card-text"> stock: {item.stock}</p>
                         <p className="card-text">${new Intl.NumberFormat('de-DE').format(item.precio)}</p>
-                        <ItemCount valInicial={1} stock={item.stock}/>
+                        <div className="contenedorFinalCardDetalle">
+                        <ItemCount valInicial={1} stock={item.stock} />
                         <button className="btn btn-secondary btn-final">FINALIZAR COMPRA</button>
+                        </div>
+                        
                     </div>
                 </div>
             </div>

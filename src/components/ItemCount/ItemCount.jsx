@@ -8,9 +8,9 @@ const ItemCount = ({valInicial, stock}) => {
     return (
         
         <>
-            <button classname="btn btn-dark" onClick={() => sumar ()}> + </button>
+            <button classname="btn btn-dark botonCardDetalle" onClick={() => sumar ()}> + </button>
             {contador}
-            <button classname="btn btn-dark" onClick={() => restar ()}> - </button>
+            <button classname="btn btn-dark botonCardDetalle " onClick={() => restar ()}> - </button>
         </>
     );
 }

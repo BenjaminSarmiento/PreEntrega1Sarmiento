@@ -9,7 +9,7 @@ const ItemListContainer = () => {
 
     useEffect(() => {
         if (nombreCategoria) {    
-            fetch('../json/productos.json')
+            fetch('/json/productos.json')
        .then(Response => Response.json())
        .then(items => {
           const products = items.filter(prod => prod.nombreCategoria === nombreCategoria)  
@@ -18,7 +18,7 @@ const ItemListContainer = () => {
           setProductos(productsList)
          })
     } else {
-        fetch('../json/productos.json')
+        fetch('/json/productos.json')
        .then(Response => Response.json())
        .then(products => {
         console.log(products)
