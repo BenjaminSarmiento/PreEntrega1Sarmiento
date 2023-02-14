@@ -1,16 +1,23 @@
 import { useState } from "react";
-const ItemCount = ({valInicial, stock}) => {
+import { toast } from "react-toastify";
+const ItemCount = ({valInicial, stock, onAdd}) => {
     const [contador, setContador] = useState(valInicial)
+
 
     const sumar = () => (contador < stock) && setContador(contador + 1)
     const restar = () => (contador > valInicial) && setContador(contador - 1)
+    const agregarCarrito = () => {
+        onAdd(contador)
+        toast(`Agregaste ${contador} productos al carrito`)
+}
 
     return (
         
         <>
-            <button classname="btn btn-dark botonCardDetalle" onClick={() => sumar ()}> + </button>
+            <button className="btn btn-dark botonCardDetalle" onClick={() => sumar ()}> + </button>
             {contador}
-            <button classname="btn btn-dark botonCardDetalle " onClick={() => restar ()}> - </button>
+            <button className="btn btn-dark botonCardDetalle " onClick={() => restar ()}> - </button>
+            <button className="btn btn-dark botonAgregar" onClick={() => agregarCarrito()}>Agregar al carrito</button>
         </>
     );
 }

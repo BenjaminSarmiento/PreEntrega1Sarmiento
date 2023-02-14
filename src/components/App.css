@@ -76,8 +76,47 @@ body{
 .card-title{
   text-transform: uppercase;
 }
+.botonCardDetalle{
+  font-size: 20px;
+  height: 40px;
+}
+.botonAgregar{
+  margin-left: 20px;
+}
 .img-card-detalle{
   width: 200px;
   height: 200px;
+}
+.darkMode{
+  background-color: black;
+}
+.cardDark{
+  background-color: grey;
+  color: black;
+  width: 18rem;
+  margin: 15px;
+  height: 400px;
+  border-radius: 5px;
+  border: none;
+}
+.bodyItemDetailDark{
+   width: 500px;
+   height: 200px;
+   display: flex;
+   flex-direction: row;
+  justify-content: center;
+  margin-left: 300px;
+  margin-top: 100px;
+  color: white;
+}
+.cartContainer{
+  margin-top: 3%;
+  margin-left: 30%;
+}
+.divButtons button{
+  margin-top: 4px;
+}
+.cardCart{
+ max-width: 540px;
 }
 
