@@ -2,7 +2,8 @@
 import './App.css'
 import 'react-toastify/dist/ReactToastify.css'
 
-import { getProductos } from '../firebase/firebase';
+//import { getProducto } from '../firebase/firebase'; //////////
+import { cargarBDD } from '../firebase/firebase';
 
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
@@ -18,7 +19,9 @@ import { DarkModeProvider } from '../context/DarkModeContext';
 
 const App = () => {
 
-  
+  //getProducto()   ////////
+  //cargarBDD()
+
   return (
     <>
     <BrowserRouter>

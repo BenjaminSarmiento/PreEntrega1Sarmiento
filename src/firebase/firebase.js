@@ -40,3 +40,10 @@ export const getProductos = async() => {
   })
   return items
 }
+
+export const getProducto = async(id) => {     ///////////////
+  const producto = await getDoc(doc(db, "productos", id))
+  console.log(producto.data());
+  const item = {...producto.data(), id: producto.id}
+  console.log(item);
+}
