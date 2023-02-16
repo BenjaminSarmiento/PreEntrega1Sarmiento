@@ -2,6 +2,8 @@
 import './App.css'
 import 'react-toastify/dist/ReactToastify.css'
 
+import { getProductos } from '../firebase/firebase';
+
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { ToastContainer } from 'react-toastify';
@@ -9,12 +11,14 @@ import Navbar from "./navbar/navbar";
 import ItemListContainer from './ItemListContainer/ItemListContainer';
 import ItemDetailContainer from './ItemDetailContainer/ItemDetailContainer';
 import Contacto from './contacto/Contacto';
-import Cart from './Cart/Cart';
+import { Cart } from './Cart/Cart';
 
 import { DarkModeProvider } from '../context/DarkModeContext';
 
 
 const App = () => {
+
+  
   return (
     <>
     <BrowserRouter>

@@ -6,7 +6,8 @@
      "precio": 7500,
      "cantidad": 1,
      "caracteristicas": "Creatina 100% pura. Duracion 2 meses, 300gr",
-     "stock": 10, "img": "creatina-gold.png"
+     "stock": 10, 
+     "img": "https://firebasestorage.googleapis.com/v0/b/sys-suplementos.appspot.com/o/creatina%20gold.jpg?alt=media&token=7209b763-028f-48d6-be1b-1bc3d4fe434f"
     },
     {"nombre": "creatina mag pura",
      "id":2 ,
@@ -16,7 +17,7 @@
      "cantidad": 1,
      "caracteristicas": "creatina 100% pura, 250gr",
      "stock": 10,
-     "img": "creatina-mag-pura.png"
+     "img": "https://firebasestorage.googleapis.com/v0/b/sys-suplementos.appspot.com/o/creatina%20mag%20pura.webp?alt=media&token=00216007-ec79-42c8-aef7-328545141a82"
     },
     {"nombre": "creatina mag high power",
      "id":3 ,
@@ -26,7 +27,7 @@
      "cantidad": 1,
      "caracteristicas": "creatina con aminoacidos, 250gr",
      "stock": 5,
-     "img": "creatina-mag-high.png"
+     "img": "https://firebasestorage.googleapis.com/v0/b/sys-suplementos.appspot.com/o/creatina%20mag%20high.jpg?alt=media&token=22bee79f-1dc4-4158-9c09-4dffa1d4f1c6"
     },
     {"nombre": "proteina true made",
      "id":4 ,
@@ -36,7 +37,7 @@
      "cantidad": 1,
      "caracteristicas": "proteina de alta calidad",
      "stock": 0,
-     "img": "proteina-ena-true-made.jpg"
+     "img": "https://firebasestorage.googleapis.com/v0/b/sys-suplementos.appspot.com/o/proteina-ena-true-made.jpg?alt=media&token=23501bf5-206b-442f-85ab-dece56e90350"
     },
     {"nombre": "proteina mag ",
      "id":5 , 
@@ -46,7 +47,7 @@
      "cantidad": 1,
      "caracteristicas": "proteina w80",
      "stock": 10,
-     "img": "proteina-mag-2.png"
+     "img": "https://firebasestorage.googleapis.com/v0/b/sys-suplementos.appspot.com/o/proteina%20mag%202.png?alt=media&token=9643098b-6fac-4e5a-bdea-fe7416861981"
     },
     {"nombre": "proteina gold nutrition",
      "id":6 ,
@@ -56,7 +57,7 @@
      "cantidad": 1,
      "caracteristicas": "doypack de proteina",
      "stock": 4,
-     "img": "proteina-gold(1).png"
+     "img": "https://firebasestorage.googleapis.com/v0/b/sys-suplementos.appspot.com/o/proteina-gold.png?alt=media&token=99899a2a-4434-4275-a1a4-641be7912084"
     },
     {"nombre": "shaker gold nutrition blanco",
      "id":7 , 
@@ -66,7 +67,7 @@
      "cantidad": 1,
      "caracteristicas": "Capacidad de 750ml. Con compartimiento",
      "stock": 15,
-     "img": "shaker-gold-blanco.jpg"
+     "img": "https://firebasestorage.googleapis.com/v0/b/sys-suplementos.appspot.com/o/shaker-gold-blanco.jpg?alt=media&token=36eb31ce-0064-4908-8e0a-dbfeeadd003d"
     },
     {"nombre": "shaker gold nutrition negro",
      "id":8 ,
@@ -76,7 +77,7 @@
      "cantidad": 1,
      "caracteristicas": "Capacidad de 600ml. Sin compartimiento",
      "stock": 12,
-     "img": "shaker-gold-negro.png"
+     "img": "https://firebasestorage.googleapis.com/v0/b/sys-suplementos.appspot.com/o/shaker-gold-negro.jpg?alt=media&token=eb563772-eb25-4ef0-a6e7-6f1fa030add3"
     },
     {"nombre": "shaker balboa",
      "id":9 ,
@@ -86,7 +87,7 @@
      "cantidad": 1,
      "caracteristicas": "Capacidad de 750ml Plastico de alta calidad", 
      "stock": 10,
-     "img": "shaker-balboa.png"
+     "img": "https://firebasestorage.googleapis.com/v0/b/sys-suplementos.appspot.com/o/shaker%20balboa.jpg?alt=media&token=3c49eefa-d52d-457b-b36b-bcc3487de2f2"
     },
     {"nombre": "shaker crossfit",
      "id":10 ,
@@ -96,7 +97,7 @@
      "cantidad": 1,
      "caracteristicas": "Capacidad de 750ml Plastico de alta calidad",
      "stock": 10,
-     "img": "shaker-crossfit.png"
+     "img": "https://firebasestorage.googleapis.com/v0/b/sys-suplementos.appspot.com/o/shaker%20crossfit.jpg?alt=media&token=c656c148-23dd-4fa4-86fd-4ef6bbf8f58e"
     },
     {"nombre": "shaker mad skull",
      "id":11 ,
@@ -106,7 +107,7 @@
      "cantidad": 1,
      "caracteristicas": "Capacidad de 750ml Plastico de alta calidad",
      "stock": 10,
-     "img": "shaker-mad-skull.png"
+     "img": "https://firebasestorage.googleapis.com/v0/b/sys-suplementos.appspot.com/o/shaker%20mad%20skull.jpg?alt=media&token=258fce92-3577-4609-b784-fa9d34309ce8"
     },
     {"nombre": "shaker gold gym",
      "id":12 ,
@@ -116,6 +117,6 @@
      "cantidad": 1,
      "caracteristicas": "Capacidad de 750ml Plastico de alta calidad",
      "stock": 10,
-     "img": "shaker-golds-gym.png"
+     "img": "https://firebasestorage.googleapis.com/v0/b/sys-suplementos.appspot.com/o/shaker%20golds%20gym.jpg?alt=media&token=dfdb226d-3df7-40ca-a6c7-c264ff6f1a9b"
     }
     ]

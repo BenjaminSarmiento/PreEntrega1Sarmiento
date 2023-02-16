@@ -10,7 +10,7 @@ const ItemDetail = ({item}) => {
     return (
         <div>
             <div className={`cardDetalle ${darkMode && "bodyItemDetailDark" }`}>
-                <img src={`../img/${item.img}`} className = "img-fluid rounded-start img-card-detalle" alt= {item.nombre}/>
+                <img src={item.img} className = "img-fluid rounded-start img-card-detalle" alt= {item.nombre}/>
                 <div>
                     <div className="card-body-detalle">
                         <h5 className="card-title">{item.nombre}</h5>

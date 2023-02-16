@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import { ItemList } from "../ItemList/ItemList"
+import  ItemList  from "../ItemList/ItemList"
 export const Cart = () => {
     const carrito = [
         {id: 1, nombre: "creatina", modelo: "1", img: "creatina-gold.png", precio: 400, cantidad: 5 },
