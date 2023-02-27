@@ -4,7 +4,8 @@
 /node_modules
 /.pnp
 .pnp.js
-
+/public/json/productos.json
+/public/img
 # testing
 /coverage
 

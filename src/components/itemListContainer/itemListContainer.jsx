@@ -18,16 +18,15 @@ const ItemListContainer = () => {
         if (nombreCategoria) {    
             getProductos()
        .then(items => {
-          const products = items.filter(prod => prod.nombreCategoria === nombreCategoria)  
+          const products = items.filter(prod => prod.stock > 0).filter(prod => prod.nombreCategoria === nombreCategoria)  
           const productsList = <ItemList products={products} plantilla={'item'}/> 
-          console.log(productsList)
           setProductos(productsList)
          })
     } else {
         getProductos()
-       .then(products => {
+       .then(items => {
+        const products = items.filter(prod => prod.stock > 0)
         const productsList = <ItemList products={products} plantilla={'item'}/> 
-          console.log(productsList)
           setProductos(productsList)
          })
     }

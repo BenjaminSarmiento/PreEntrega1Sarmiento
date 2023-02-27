@@ -2,21 +2,23 @@
 body{
    background-color: rgb(245, 244, 244);
 }
-
 .divColor{
     background-color: red;
 }
 .cantCarrito{
    background-color: rgb(255, 115, 0);
-   padding: 3px;
+   padding: 2px;
    border-radius: 50px;
    color: black;
+   margin-left: 5px;
+   margin-right: 5px;
 }
-.btnCarrito{
-   color: black;
-   background-color: rgb(139, 139, 139);
+.btnCarrito-light{
+   color: rgb(255, 255, 255);
+   background: none;
    border: none;
    font-size: 20px;
+   margin-right: 10px;
 }
 .frasePagina{
    color: white;
@@ -31,8 +33,7 @@ body{
 .card{
    width: 18rem;
    margin: 15px;
-   /*background-color: rgb(245, 244, 244);*/
-   border-radius: 5px;
+   border-radius: 10px;
    border: none;
 }
 .imagenCard{
@@ -90,13 +91,17 @@ body{
 .darkMode{
   background-color: black;
 }
+.darkModeCarrito{
+  background-color: black;
+  padding-bottom: 600px;
+}
 .cardDark{
   background-color: grey;
   color: black;
   width: 18rem;
   margin: 15px;
   height: 400px;
-  border-radius: 5px;
+  border-radius: 10px;
   border: none;
 }
 .bodyItemDetailDark{
@@ -111,12 +116,27 @@ body{
 }
 .cartContainer{
   margin-top: 3%;
-  margin-left: 30%;
 }
 .divButtons button{
-  margin-top: 4px;
+  margin-top: 20px;
 }
 .cardCart{
  max-width: 540px;
 }
-
+.form-label {
+  margin-bottom: 0.5rem;
+  color: #2780e3;
+}
+.container .cartContainer{
+  background-color: red;
+}
+.resumenDeCompra{
+  color: rgb(141, 117, 117);
+}
+.carritoVacio{
+  margin-top: 80px;
+  margin-left: 550px;
+}
+.botonAgregar{
+  width: 100px;
+}

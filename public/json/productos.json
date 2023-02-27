@@ -36,7 +36,7 @@
      "precio": 6000,
      "cantidad": 1,
      "caracteristicas": "proteina de alta calidad",
-     "stock": 0,
+     "stock": 10,
      "img": "https://firebasestorage.googleapis.com/v0/b/sys-suplementos.appspot.com/o/proteina-ena-true-made.jpg?alt=media&token=23501bf5-206b-442f-85ab-dece56e90350"
     },
     {"nombre": "proteina mag ",
@@ -109,14 +109,14 @@
      "stock": 10,
      "img": "https://firebasestorage.googleapis.com/v0/b/sys-suplementos.appspot.com/o/shaker%20mad%20skull.jpg?alt=media&token=258fce92-3577-4609-b784-fa9d34309ce8"
     },
-    {"nombre": "shaker gold gym",
+    {"nombre": "shaker gold blanco",
      "id":12 ,
      "idCategoria": 3 ,
      "nombreCategoria": "shakers",
      "precio":  1500,
      "cantidad": 1,
-     "caracteristicas": "Capacidad de 750ml Plastico de alta calidad",
+     "caracteristicas": "Capacidad de 600ml con compartimiento en la parte de abajo",
      "stock": 10,
-     "img": "https://firebasestorage.googleapis.com/v0/b/sys-suplementos.appspot.com/o/shaker%20golds%20gym.jpg?alt=media&token=dfdb226d-3df7-40ca-a6c7-c264ff6f1a9b"
+     "img": "https://firebasestorage.googleapis.com/v0/b/sys-suplementos.appspot.com/o/shaker-gold-blanco.jpg?alt=media&token=36eb31ce-0064-4908-8e0a-dbfeeadd003d"
     }
     ]

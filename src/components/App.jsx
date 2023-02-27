@@ -2,7 +2,6 @@
 import './App.css'
 import 'react-toastify/dist/ReactToastify.css'
 
-//import { getProducto } from '../firebase/firebase'; //////////
 import { cargarBDD } from '../firebase/firebase';
 
 
@@ -13,29 +12,34 @@ import ItemListContainer from './ItemListContainer/ItemListContainer';
 import ItemDetailContainer from './ItemDetailContainer/ItemDetailContainer';
 import Contacto from './contacto/Contacto';
 import { Cart } from './Cart/Cart';
+import Checkout from './Checkout/Checkout';
 
 import { DarkModeProvider } from '../context/DarkModeContext';
+
+import { Carritoprovider } from '../context/CarritoContext';
 
 
 const App = () => {
 
-  //getProducto()   ////////
   //cargarBDD()
 
   return (
     <>
     <BrowserRouter>
-     <DarkModeProvider>
-        <Navbar/>
-        <Routes>
-          <Route path='/' element={<ItemListContainer/>}/>
-          <Route path='/item/:id' element={<ItemDetailContainer/>}/>
-          <Route path='/categorias/:nombreCategoria' element={<ItemListContainer/>}/>
-          <Route path='contacto' element={<Contacto/>}/>
+    <Carritoprovider>
+      <DarkModeProvider>
+         <Navbar/>
+         <Routes>
+           <Route path='/' element={<ItemListContainer/>}/>
+           <Route path='/item/:id' element={<ItemDetailContainer/>}/>
+           <Route path='/categorias/:nombreCategoria' element={<ItemListContainer/>}/>
+            <Route path='contacto' element={<Contacto/>}/>
           <Route path='/Cart' element={<Cart/>}/>
-        </Routes>
-        <ToastContainer/>
-     </DarkModeProvider>
+          <Route path='/checkout' element={<Checkout/>}/>
+         </Routes>
+         <ToastContainer/>
+      </DarkModeProvider>
+    </Carritoprovider>
     </BrowserRouter>
     </>
   );
