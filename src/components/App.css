@@ -1,6 +1,7 @@
 
 body{
-   background-color: rgb(245, 244, 244);
+   /*background-color: rgb(245, 244, 244);*/
+   background-color: rgb(201, 199, 199);
 }
 .divColor{
     background-color: red;
@@ -77,6 +78,9 @@ body{
 .card-title{
   text-transform: uppercase;
 }
+.card-price{
+  color: rgb(5, 119, 5);
+}
 .botonCardDetalle{
   font-size: 20px;
   height: 40px;
@@ -128,7 +132,7 @@ body{
   color: #2780e3;
 }
 .container .cartContainer{
-  background-color: red;
+  background-color: rgb(255, 0, 0);
 }
 .resumenDeCompra{
   color: rgb(141, 117, 117);
@@ -137,6 +141,15 @@ body{
   margin-top: 80px;
   margin-left: 550px;
 }
+.sinProductosLink{
+  margin-top: 20px;
+  margin-left: 150px;
+}
+.sinProductos{
+  margin-top: 80px;
+  margin-left: 450px;
+}
+
 .botonAgregar{
   width: 100px;
 }

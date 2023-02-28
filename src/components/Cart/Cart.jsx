@@ -18,7 +18,7 @@ export const Cart = () => {
                     }
                     <div className="divButtons">
                         <p className="resumenDeCompra">Resumen de la compra:  $ {new Intl.NumberFormat('de-DE').format(totalPrice())}</p>
-                        <button className="btn btn-danger" onClick={() => emptyCart()}>Vaciar carrito</button>
+                        <button className="btn btn-warning" onClick={() => emptyCart()}>Vaciar carrito</button>
                         <Link className="nav-link" to={'/'}><button className="btn btn-dark">Continuar Comprando</button></Link> 
                         <Link className="nav-link" to={'/checkout'}><button className="btn btn-dark">Finalizar compra</button></Link> 
                     </div>
